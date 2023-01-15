@@ -1,9 +1,7 @@
  <br/>
  <br/>
 
- <p align="center"><img src="https://palettes.andev.ml/assets/image/icon/128x128.png"/></p>
 
-- [Demo](https://fieldmask.github.io/doc/demo/)
   
 # <p align="center">FieldMask</p>
 
@@ -17,25 +15,24 @@
         </a>
     </p>
 </p>
-
+- [Demo](https://fieldmask.github.io/doc/demo/)
+  
 ### Installation
 >CDN
 ```html
-    <script src="https://fieldmask.github.io/cdnjs/0.1.0/fieldmask.js"></script>
+<script src="https://fieldmask.github.io/cdnjs/0.1.0/fieldmask.js"></script>
 ```
 
 ### How to use
 
 ```html
-    <input type="text" fieldmask="maskname"> <!-- 'maskname' -->
+<input type="text" fieldmask="maskname"> <!-- 'maskname' -->
 
-    <!-- cdn -->
-    <script src="https://fieldmask.github.io/cdnjs/0.1.0/fieldmask.js"></script>
-    <script>
-        fieldmask()
-    </script>
-
-    <!-- module -->
+<!-- cdn -->
+<script src="https://fieldmask.github.io/cdnjs/0.1.0/fieldmask.js"></script>
+<script>
+    fieldmask()
+</script>
 ```
 
 ### Predefined Masks
@@ -64,33 +61,33 @@
 
 #### - Example with string only
 ```html
-    <input type="text" fieldmask="date">
+<input type="text" fieldmask="date">
 ```
 ```js
-    fieldmask({
-        'date': '00-00-0000'
-    })
+fieldmask({
+    'date': '00-00-0000'
+})
 ```
 
 #### - Mask options type
 ```js
-    fieldmask({
-        'customMaskName': string | [maskFormat, options?: {
-            reverse: boolean, // Reverse the typing start side 
-            prefix: string,   // prefix+mask
-            suffix: string,   // mask+suffix
-        }]
-    })
+fieldmask({
+    'customMaskName': string | [maskFormat, options?: {
+        reverse: boolean, // Reverse the typing start side 
+        prefix: string,   // prefix+mask
+        suffix: string,   // mask+suffix
+    }]
+})
 ```
 
 #### - Example with options
 ```html
-    <input type="text" fieldmask="real">
+<input type="text" fieldmask="real">
 ```
 ```js
-    fieldmask({
-        'real': ['00,00', {prefix: 'R$', reverse: true}]
-    })
+fieldmask({
+    'real': ['00,00', {prefix: 'R$', reverse: true}]
+})
 ```
 
 <br/>
