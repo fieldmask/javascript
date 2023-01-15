@@ -10,11 +10,9 @@
 <p align="center">
     <p align="center" >
         <img src="https://img.shields.io/badge/License-MIT-319046?" alt="License-MIT"/>&nbsp;&nbsp;
-        <a href="https://www.npmjs.com/package/@fieldmask/javascript" target="_blank">
-            <img src="https://img.shields.io/badge/npm-0.1.0-319046?" alt="NPM Version"/>
-        </a>
     </p>
 </p>
+
 - [Demo](https://fieldmask.github.io/doc/demo/)
   
 ### Installation
