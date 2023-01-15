@@ -1,0 +1,20 @@
+{
+  "name": "@fieldmask/javascript",
+  "description": "A simple masking library for javascript input",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "André Malveira",
+    "email": "andremalveira.dev@gmail.com",
+    "url":"https://github.com/andremalveira"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fieldmask/javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fieldmask/javascript/issues"
+  },
+  "homepage": "https://github.com/fieldmask/javascript#readme",
+  "main": "src/index.js"
+}
